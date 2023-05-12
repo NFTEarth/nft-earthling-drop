@@ -317,10 +317,10 @@ const Home: NextPage = () => {
           </>
         )}
       </div>
-      {/* Powered by thirdweb */}{" "}
+      {/* Powered by NFTEarth */}{" "}
       <Image
         src="/logo.png"
-        alt="thirdweb Logo"
+        alt="NFTEarth"
         width={135}
         height={22}
         className={styles.buttonGapTop}
