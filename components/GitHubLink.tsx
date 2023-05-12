@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/nft-drop";
+  const url = "https://portal.arbitrum.io";
 
   return (
     <>
@@ -31,11 +31,11 @@ export default function ThirdwebGuideFooter() {
       >
         <a href={url} target="_blank" rel="noopener noreferrer">
           <Image
-            src="/github.png"
+            src="/arbitrum-products_one.svg"
             width={40}
             height={40}
             style={{ cursor: "pointer" }}
-            alt="GitHub"
+            alt="Arbitrum"
           />
         </a>
       </div>
